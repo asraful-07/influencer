@@ -17,7 +17,7 @@ body{
 header{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 30px 60px;
 }
 .navbar{
     display: flex;
@@ -86,4 +86,53 @@ ul li a{
 .hero-img img{
     width: 100%;
     height: auto;
+}
+
+/* card section code */
+.card-heading{
+    color: rgb(58, 58, 58);
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 30px;
+}
+.card-img{
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 15px;
+}
+.card-img img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 10px;
+}
+.card-tite{
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.card-taka{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    
+}
+.card-word{
+
 }
